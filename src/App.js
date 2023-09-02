@@ -1,10 +1,11 @@
-import React from 'react';
-import MindMap from './MindMap'; // Import the MindMap component
+import React from "react";
+import MindMap from "./components/MindMap";
+import Sidebar from "./components/sidebar"; // Import the MindMap component
 
 function App() {
   return (
     <div className="App">
-      {/* Other components */}
+      <Sidebar />
       <MindMap /> {/* Render the MindMap component */}
     </div>
   );
