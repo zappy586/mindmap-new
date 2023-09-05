@@ -1,12 +1,14 @@
-import React from "react";
-import MindMap from "./components/MindMap";
-import Sidebar from "./components/sidebar"; // Import the MindMap component
 
+// import MindMap from "./components/MindMap";
+// import Sidebar from "./components/sidebar"; // Import the MindMap component
+// import GoogoleAuth from "./components/googleAuth"
+import LandingPage from "./components/landingPage";
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <MindMap /> {/* Render the MindMap component */}
+   
+      <LandingPage/>
+     
     </div>
   );
 }

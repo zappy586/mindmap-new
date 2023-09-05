@@ -1,0 +1,77 @@
+body {
+    background-image: url("./Asset/s9766of0ag051.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Add margin to reset default body margin */
+}
+
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, 0.267); Add a background color with transparency */
+}
+
+.text_bar {
+    width: 80%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.text_bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+    font-size: 16px;
+}
+
+.text_bar button {
+    position: absolute;
+    top: 5px;
+    right: -17px;
+    border: none;
+    background-color: transparent; /* Set background to transparent */
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+}
+/* ----------------------------------<graph holder>---------------------------- */
+.graph-container {
+    height: calc(100vh - 90px);
+    margin: 13px;
+    position: relative;
+    background-color: rgba(255, 255, 255, .15); 
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden; 
+  }
+  .graph-wrapper {
+    width: 100%; 
+    height: 100%; 
+    margin: auto; 
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .response-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    /* overflow-y: scroll; */
+    max-height: 50vh;
+  }
+.graph_holder{
+    height: 70vh;
+}

@@ -1,0 +1,85 @@
+body {
+    background-image: url("./Asset/s9766of0ag051.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Add margin to reset default body margin */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* 100% of the viewport height */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: #00000057;
+    backdrop-filter: blur(30px);
+    color: white;
+    padding: 24px 102px;
+    border-radius: 165px;
+    align-items: center;
+    margin-bottom: 11px;
+}
+h1{
+    font-size: 11vw;
+    margin: 0;
+    font-family: 'Poller One', cursive;
+}
+.info_container{
+    display: flex;
+    align-items: center;
+}
+.info_container h2{
+    background-color: #00ff43a3;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 44px;
+    border-radius: 91px;
+    margin-bottom: 2vw;
+    max-width: 1000px;
+    font-size: 2.2em;
+    font-family: 'Days One', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.info_container img{
+    width: 44%;
+    margin-bottom: 46px;
+}
+.img_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.img_container img{
+    width: 20%;
+}
+.info_left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00ff43a3;
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 32px;
+    margin: 10px;
+    border-radius: 45px;
+    width: 35vw;
+   
+}
+.button_container h3{
+    margin: 20px;
+    max-width: 715px;
+    font-size: 2.2em;
+    font-family: 'Days One', sans-serif;
+    font-weight: lighter;
+}
